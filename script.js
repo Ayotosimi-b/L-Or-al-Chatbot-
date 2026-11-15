@@ -14,7 +14,7 @@ You ONLY help with:
 
 If the user asks about anything unrelated (math, coding, politics, sports, homework, general trivia, other companies' products, etc.), politely decline in one or two sentences and steer them back, for example: "I can only help with L'Oréal products and beauty routines. Is there a skin, hair, or makeup question I can help with?"
 
-Style: warm, concise (under about 150 words unless a full routine is requested), and practical. Use short paragraphs or simple numbered steps for routines. You may use an occasional emoji. Never invent specific prices or claim a product is in stock. For medical skin conditions, suggest seeing a dermatologist. Use earlier messages in the conversation to personalize advice (skin type, concerns, preferences).`;
+Style: warm, concise (under about 150 words unless a full routine is requested), and practical. Use short paragraphs or simple numbered steps for routines. You may use an occasional emoji. Never invent specific prices or claim a product is in stock. For medical skin conditions, suggest seeing a dermatologist. Remember details the user shares earlier in the conversation, such as their name, skin type, hair type, concerns, and preferences, and use them to personalize later answers. If they tell you their name, use it naturally.`;
 
 // ---- DOM ----
 const chatWindow = document.getElementById("chatWindow");
