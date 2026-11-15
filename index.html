@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L'Oréal Smart Routine & Product Advisor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <img src="img/loreal-logo.png" alt="L'Oréal" class="logo">
+    <h1 class="subtitle">Smart Routine &amp; Product Advisor</h1>
+  </header>
+
+  <main class="chat-wrap">
+    <!-- LevelUp: the user's latest question, shown above the response -->
+    <p id="latestQuestion" class="latest-question" hidden></p>
+
+    <section id="chatWindow" class="chat-window" aria-live="polite"></section>
+
+    <form id="chatForm" class="chat-form" autocomplete="off">
+      <input type="text" id="userInput" placeholder="Ask me about any L'Oréal product or routine…" aria-label="Your message" required>
+      <button type="submit" id="sendBtn" aria-label="Send message">
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M2 21l21-9L2 3v7l15 2-15 2z"/></svg>
+      </button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 L'Oréal. All rights reserved.</p>
+    <nav>
+      <a href="https://www.loreal.com/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+      <a href="https://www.loreal.com/" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+      <a href="https://www.loreal.com/" target="_blank" rel="noopener noreferrer">Contact</a>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
